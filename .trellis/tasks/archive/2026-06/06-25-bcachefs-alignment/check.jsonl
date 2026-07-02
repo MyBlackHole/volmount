@@ -1,0 +1,4 @@
+{"file": ".trellis/spec/backend/index.md", "reason": "后端开发规范参考"}
+{"file": ".trellis/tasks/06-25-bcachefs-alignment/prd.md", "reason": "验收标准"}
+{"file": ".trellis/tasks/06-25-bcachefs-alignment/design.md", "reason": "设计约束"}
+{"file": ".trellis/tasks/06-25-bcachefs-alignment/implement.md", "reason": "执行检查清单"}

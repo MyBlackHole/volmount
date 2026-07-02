@@ -1,0 +1,12 @@
+{"file": ".trellis/tasks/06-23-crash-recovery-bcachefs/prd.md", "reason": "Product requirements: full bcachefs alignment (gaps 1-9), acceptance criteria, 9 requirements"}
+{"file": ".trellis/tasks/06-23-crash-recovery-bcachefs/design.md", "reason": "Technical design: bcachefs-aligned recovery passes (bitmask scheduling + trailing_zeros), journal overlay (sorted Vec + gap buffer), overlay bypass, clean section, blacklist, gap detection"}
+{"file": ".trellis/tasks/06-23-crash-recovery-bcachefs/implement.md", "reason": "Implementation plan: 5 phases (P1 framework, P2 flush+blacklist+clean, P3 persistence, P4 overlay, P5 gap+dynamic), test strategy, file change manifest"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/init/recovery.c", "reason": "bcachefs recovery 主入口：bch2_fs_recovery()、bch2_run_recovery_passes_startup()、journal_read + journal_replay 流程"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/init/passes.h", "reason": "bcachefs pass 类型定义：RecoveryPass 枚举、PASS_ALWAYS/PASS_UNCLEAN flags、recovery_pass_will_run()"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/init/passes.c", "reason": "bcachefs pass 调度实现：bch2_run_recovery_passes()（位掩码调度 + __ffs64 迭代）、pass_done = max(pass_done, pass）、passes_complete 位掩码"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/init/passes_format.h", "reason": "bcachefs pass 定义表：x(alloc_read, 0, PASS_ALWAYS)、x(set_may_go_rw, 8, PASS_ALWAYS|PASS_SILENT)、x(journal_replay, 9, PASS_ALWAYS)"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/init/passes_types.h", "reason": "bcachefs recovery 运行时类型：pass_done（标量）、passes_complete（位掩码）、current_pass、rewound_from/to"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/btree/journal_overlay_types.h", "reason": "bcachefs journal_keys 类型定义：struct journal_keys（nr/size/data/gap 预分配数组 + gap buffer）、struct journal_key（journal_seq_offset、btree_id、level、overwritten flag）"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/init/fs.c", "reason": "bcachefs fs 初始化流程：bch2_fs_open → __bch2_fs_start → bch2_fs_recovery → bch2_fs_read_write 调用链"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/journal.c", "reason": "bcachefs journal 实现：journal read/write/blacklist 流程"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/journal_read.c", "reason": "bcachefs journal_read 实现：bch2_journal_read()、bch2_journal_replay_early()、journal_blacklist 处理"}

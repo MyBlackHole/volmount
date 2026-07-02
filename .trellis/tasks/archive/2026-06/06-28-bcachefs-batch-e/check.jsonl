@@ -1,0 +1,2 @@
+{"file": ".trellis/tasks/06-28-bcachefs-batch-e/research/bcachefs-read-done-analysis.md", "reason": "验证流水线参考，check 时确认实现覆盖了所有验证点"}
+{"file": ".trellis/tasks/06-28-bcachefs-batch-e/research/bcachefs-write-path-analysis.md", "reason": "写入流水线参考，check 时确认写入路径完整"}

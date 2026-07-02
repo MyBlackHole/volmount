@@ -1,0 +1,12 @@
+{"file": ".trellis/tasks/06-23-journal-p1/design.md", "reason": "Journal P1 技术设计 — 数据结构变更、数据流、接口兼容性"}
+{"file": ".trellis/tasks/archive/2026-06/06-22-concurrency-research/research/journal_concurrency.md", "reason": "bcachefs Journal 并发模型深度分析（596 行）"}
+{"file": "docs/journal-design.md", "reason": "Journal 子系统设计文档（420 行）— 含 bcachefs 完整对照"}
+{"file": "docs/architecture.md", "reason": "系统架构总览 — volmountd=bch_fs, Journal=全局实例"}
+{"file": "crates/volmount-core/src/journal/types.rs", "reason": "当前 Journal 实现 — 需要重构的核心文件"}
+{"file": "crates/volmount-core/src/journal/mod.rs", "reason": "Journal 模块入口 — 公开接口"}
+{"file": "crates/volmount-core/src/journal/jset.rs", "reason": "Jset/JsetEntry 序列化格式"}
+{"file": "crates/volmount-core/src/journal/replay.rs", "reason": "JournalReplayer — 确保重构后兼容"}
+{"file": "crates/volmount-core/src/btree/transaction.rs", "reason": "BtreeTransaction — Journal 集成调用者"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/journal/types.h", "reason": "bcachefs struct journal / journal_res_state 定义（398 行）"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/journal/journal.h", "reason": "bcachefs journal_res_get_fast 实现（~600 行）"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/journal/journal.c", "reason": "bcachefs journal 实现 — open/close/write/put（~1000 行）"}

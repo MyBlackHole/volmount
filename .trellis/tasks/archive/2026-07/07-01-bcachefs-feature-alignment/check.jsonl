@@ -1,0 +1,7 @@
+{"file":".trellis/spec/backend/btree-io-coverage.md","reason":"Btree node read/write I/O coverage and multi-block extent handling are directly in scope for Phase 1."}
+{"file":".trellis/spec/backend/btree-cache-coverage.md","reason":"The task changes persistent node identity and cache lookup behavior during root/child reload."}
+{"file":".trellis/spec/backend/volume-coverage.md","reason":"Volume ownership of Journal, writeback coordination, and shutdown behavior are part of the remaining alignment work."}
+{"file":".trellis/spec/backend/journal-coverage.md","reason":"Journal pin lifecycle and reclaim interaction are core acceptance criteria for this task."}
+{"file":".trellis/spec/backend/error-handling.md","reason":"Unrecoverable Btree and Journal I/O errors must transition the volume into error/RO behavior."}
+{"file":".trellis/spec/journal/reclaim.md","reason":"The task relies on reclaim-driven writeback and typed pin semantics."}
+{"file":".trellis/spec/guides/bcachefs-alignment-guide.md","reason":"This guide anchors bcachefs parity claims and alignment phrasing for the task."}

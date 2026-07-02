@@ -1,0 +1,4 @@
+{"file": ".trellis/tasks/06-22-btree-concurrency/prd.md", "reason": "Requirements — 6 in-scope items defining bcachefs alignment scope"}
+{"file": ".trellis/tasks/06-22-btree-concurrency/design.md", "reason": "Design — D1-D7 detailed design with URCU/WRITE_BIT/DeadlockDetector"}
+{"file": ".trellis/tasks/06-22-btree-concurrency/implement.md", "reason": "Implementation plan — 6 sequential steps with file paths and validation"}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "Quality standards — error handling, testing, code organization for backend"}

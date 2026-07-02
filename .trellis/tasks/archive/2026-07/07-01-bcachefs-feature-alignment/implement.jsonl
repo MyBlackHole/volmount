@@ -1,0 +1,7 @@
+{"file":".trellis/spec/backend/btree-io-coverage.md","reason":"Phase 1 implementation and validation are centered on node extent read/write behavior."}
+{"file":".trellis/spec/backend/btree-cache-coverage.md","reason":"Phase 2 and Phase 4 need the cache identity and pin lifecycle constraints from this spec."}
+{"file":".trellis/spec/backend/volume-coverage.md","reason":"Phase 3-5 require the volume ownership, writeback worker, and shutdown contracts."}
+{"file":".trellis/spec/backend/journal-coverage.md","reason":"The unique Journal ownership and pin interaction need to stay aligned with journal behavior."}
+{"file":".trellis/spec/backend/error-handling.md","reason":"Failure handling is part of the Phase 5+ finish criteria and must be verified in implementation."}
+{"file":".trellis/spec/journal/reclaim.md","reason":"Writeback enqueue semantics and reclaim-side pin handling are required for the async worker design."}
+{"file":".trellis/spec/guides/cross-layer-thinking-guide.md","reason":"The task spans storage, journal, and daemon layers and needs cross-layer verification."}

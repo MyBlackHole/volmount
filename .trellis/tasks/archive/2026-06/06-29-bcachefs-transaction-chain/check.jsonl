@@ -1,0 +1,13 @@
+{"id":"check-child-a-build1","type":"build","command":"cargo build -p volmount-core","after":["child-a-step-1"],"description":"Step A1 后编译检查"}
+{"id":"check-child-a-build2","type":"build","command":"cargo build -p volmount-core","after":["child-a-step-2"],"description":"Step A2 后编译检查"}
+{"id":"check-child-a-regression","type":"test","command":"cargo test -p volmount-core --lib","after":["child-a-step-3"],"description":"Child-A 完成后全量回归测试: 763 pass, 5 pre-existing, 0 new failure"}
+{"id":"check-child-a-targeted","type":"test","command":"cargo test -p volmount-core --lib -- write_extent delete_extent","after":["child-a-step-3"],"description":"Child-A 定向回归: write_extent/delete_extent 行为不变"}
+{"id":"check-child-b-build","type":"build","command":"cargo build -p volmount-core","after":["child-b-step-1"],"description":"Child-B 编译检查"}
+{"id":"check-child-b-regression","type":"test","command":"cargo test -p volmount-core --lib","after":["child-b-step-1"],"description":"Child-B 全量回归测试"}
+{"id":"check-child-b-targeted","type":"test","command":"cargo test -p volmount-core --lib -- flush_dirty_nodes","after":["child-b-step-1"],"description":"Child-B 定向测试: flush_dirty_nodes pin 行为"}
+{"id":"check-child-c-build","type":"build","command":"cargo build -p volmount-core","after":["child-c-step-1","child-c-step-2"],"description":"Child-C 编译检查"}
+{"id":"check-child-c-regression","type":"test","command":"cargo test -p volmount-core --lib","after":["child-c-step-2"],"description":"Child-C 全量回归测试"}
+{"id":"check-child-c-targeted","type":"test","command":"cargo test -p volmount-core --lib -- key_cache","after":["child-c-step-2"],"description":"Child-C 定向测试: key cache 行为"}
+{"id":"check-child-d-build","type":"build","command":"cargo build","after":["child-d-step-1"],"description":"Child-D 全部 crate 编译检查"}
+{"id":"check-final","type":"full","commands":["cargo build","cargo test -p volmount-core --lib","cargo test -p volmount-nbd --lib","cargo clippy --all-targets","cargo fmt --check"],"after":[],"description":"最终全量验证: build + test + clippy + fmt"}
+

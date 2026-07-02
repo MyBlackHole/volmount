@@ -1,0 +1,5 @@
+{"_example": "Fill with {\"file\": \"<path>\", \"reason\": \"<why>\"}. Put spec/research files only — no code paths. Run `python3 .trellis/scripts/get_context.py --mode packages` to list available specs. Delete this line once real entries are added."}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "Lock 错误处理约定"}
+{"file": "docs/lock-design.md", "reason": "锁设计参考，bcachefs six_lock 签名"}
+{"file": "docs/alloc-design.md", "reason": "Alloc 设计参考，disk_reservation/open_bucket/write_point 差距"}
+{"file": ".trellis/tasks/archive/2026-06/06-24-api-align-bcachefs/audit-alloc.md", "reason": "Alloc 审计报告，P1 差距清单"}

@@ -1,0 +1,4 @@
+{"file": ".trellis/tasks/06-22-btree-concurrency/prd.md", "reason": "Acceptance criteria — 7 checkboxes for LockGraph/WaitFifo/WRITE_BIT"}
+{"file": ".trellis/tasks/06-22-btree-concurrency/design.md", "reason": "Design compliance — verify implementation matches bcachefs-aligned design"}
+{"file": ".trellis/tasks/06-22-btree-concurrency/implement.md", "reason": "Implementation verification — each step's validation commands"}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "Quality check — error handling patterns, test coverage, code style"}

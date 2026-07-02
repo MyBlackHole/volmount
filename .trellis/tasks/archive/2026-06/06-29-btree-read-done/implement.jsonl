@@ -1,0 +1,4 @@
+{"file": ".trellis/spec/journal/index.md", "reason": "journal pin 系统架构 — KeyCache 需要嵌入 JournalEntryPin"}
+{"file": ".trellis/spec/journal/reclaim.md", "reason": "journal_flush_pins + JournalPinFlushFn 细节"}
+{"file": ".trellis/spec/backend/lock-concurrency.md", "reason": "Arc/pin 生命周期 + 并发安全模式"}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "flush 路径错误处理模式"}

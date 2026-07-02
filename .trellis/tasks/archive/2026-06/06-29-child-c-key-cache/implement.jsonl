@@ -1,0 +1,2 @@
+{"file": ".trellis/spec/guides/bcachefs-alignment-guide.md", "reason": "bcachefs 对齐验证——确认 trans_commit Phase 2 的 btree 修改与 key cache 交互对齐 bcachefs key_cache.c"}
+{"file": ".trellis/spec/journal/reclaim.md", "reason": "Pin API 使用模式——确认 bch2_btree_insert_key_cached 中的 pin_entry 与 journal pin 生命周期"}

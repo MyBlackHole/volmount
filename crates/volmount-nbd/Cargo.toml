@@ -1,0 +1,12 @@
+[package]
+name = "volmount-nbd"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+tokio.workspace = true
+tracing.workspace = true
+thiserror.workspace = true
+bytes.workspace = true
+volmount-core = { path = "../volmount-core" }

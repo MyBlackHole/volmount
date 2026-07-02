@@ -1,0 +1,4 @@
+{"file": "crates/volmount-core/src/btree/transaction.rs", "reason": "主修改文件——确认 Phase 2 cached 分支已正确添加，非 cached 条目保持 invalidate"}
+{"file": "crates/volmount-core/src/btree/mod.rs", "reason": "BtreeEngine 新增 insert_entry_cached 方法（若添加）"}
+{"file": "crates/volmount-core/src/btree/btree.rs", "reason": "TC4 trigger_key_cache_miss 调用点（若修改）"}
+{"file": "crates/volmount-core/src/btree/key_cache.rs", "reason": "确认 bch2_btree_insert_key_cached 未修改（仅改变调用时机）"}

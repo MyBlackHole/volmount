@@ -1,0 +1,6 @@
+{"id": "analysis-btree-split", "type": "spec", "path": ".trellis/tasks/06-25-bcachefs-alignment/design.md", "description": "btree split 差距分析 — 10 项差异，4 项高严重度", "tags": ["btree", "split", "gap"]}
+{"id": "analysis-journal-reclaim", "type": "research", "path": "crates/volmount-core/src/journal/types.rs", "description": "journal reclaim 对比 — seq 粒度、reclaim 不 flush、无后台线程等", "tags": ["journal", "reclaim", "gap"]}
+{"id": "analysis-alloc-trigger", "type": "research", "path": "crates/volmount-core/src/alloc/mod.rs", "description": "alloc trigger 对比 — 事务原子性、版本号、need_discard 等 9 项差异", "tags": ["alloc", "trigger", "gap"]}
+{"id": "bcachefs-interior", "type": "reference", "path": "/home/black/Documents/bcachefs-tools/fs/btree/interior.c", "description": "bcachefs btree split 参考实现", "tags": ["bcachefs", "btree"]}
+{"id": "bcachefs-journal", "type": "reference", "path": "/home/black/Documents/bcachefs-tools/fs/journal/reclaim.c", "description": "bcachefs journal reclaim 参考实现", "tags": ["bcachefs", "journal"]}
+{"id": "bcachefs-alloc", "type": "reference", "path": "/home/black/Documents/bcachefs-tools/fs/alloc/background.c", "description": "bcachefs alloc trigger 参考实现", "tags": ["bcachefs", "alloc"]}

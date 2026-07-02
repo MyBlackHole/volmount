@@ -1,0 +1,6 @@
+{"file": "crates/volmount-core/src/journal/types.rs", "reason": "验证 Journal 重构 — JournalResState/JournalBuf/JournalReservation 新增, pending/last_seq 移除"}
+{"file": "crates/volmount-core/src/journal/mod.rs", "reason": "验证公开接口已按新设计更新 — reserve/commit 替代 append, wait_all_done 替代 flush"}
+{"file": "crates/volmount-core/src/btree/transaction.rs", "reason": "验证 Journal API 集成变更"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/journal/types.h", "reason": "验证 bcachefs journal_res_state 位域布局"}
+{"file": "crates/volmount-core/src/recovery/passes/journal_replay.rs", "reason": "验证 replay 适配新接口"}
+{"file": "crates/volmount-core/src/journal/replay.rs", "reason": "验证 JournalReplayer 适配新接口"}

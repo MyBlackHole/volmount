@@ -1,0 +1,3 @@
+{"file": ".trellis/spec/journal/reclaim.md", "reason": "pin API 使用模式——确认 JournalEntryPin 的结构、pin_add/pin_drop 的语义、PinListFifo 的 count 管理"}
+{"file": ".trellis/spec/guides/bcachefs-alignment-guide.md", "reason": "bcachefs 对齐验证清单——确认节点级 pin 的 bcachefs 对应关系、覆盖地图更新"}
+{"file": ".trellis/spec/architecture.md", "reason": "Volume 架构边界——确认 Volume 不参与 I/O 的角色定义，pin 移除后的正确性"}

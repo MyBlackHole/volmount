@@ -1,0 +1,7 @@
+{"id": "ref-bcachefs-trans", "type": "reference", "path": "/home/black/Documents/bcachefs-tools/fs/btree/iter.c", "description": "bcachefs btree iter 参考", "tags": ["bcachefs", "btree"]}
+{"id": "ref-bcachefs-io", "type": "reference", "path": "/home/black/Documents/bcachefs-tools/fs/btree/io.c", "description": "bcachefs btree IO 参考", "tags": ["bcachefs", "btree"]}
+{"id": "ref-bcachefs-gc", "type": "reference", "path": "/home/black/Documents/bcachefs-tools/fs/btree/gc.c", "description": "bcachefs btree GC 参考", "tags": ["bcachefs", "btree"]}
+{"id": "ref-bcachefs-journal-io", "type": "reference", "path": "/home/black/Documents/bcachefs-tools/fs/journal_io.c", "description": "bcachefs journal IO 参考", "tags": ["bcachefs", "journal"]}
+{"id": "ref-bcachefs-six", "type": "reference", "path": "/home/black/Documents/bcachefs-tools/fs/six.c", "description": "bcachefs six lock 参考", "tags": ["bcachefs", "lock"]}
+{"id": "ref-bcachefs-recovery", "type": "reference", "path": "/home/black/Documents/bcachefs-tools/fs/recovery.c", "description": "bcachefs recovery 参考", "tags": ["bcachefs", "recovery"]}
+

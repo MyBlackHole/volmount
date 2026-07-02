@@ -1,0 +1,1 @@
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "bcachefs 对齐原则 + 6 子系统功能逻辑约定（包含本次修复的 4 项 Tier 0 差异的合约）"}

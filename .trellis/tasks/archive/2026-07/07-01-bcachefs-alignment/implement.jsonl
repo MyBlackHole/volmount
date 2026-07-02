@@ -1,0 +1,7 @@
+{"file": "crates/volmount-core/src/btree/node.rs", "reason": "主目标：重写 serialize_to_bucket() 和 deserialize_from_bucket()"}
+{"file": "crates/volmount-core/src/btree/bucket_io.rs", "reason": "调用 serialize_to_bucket / deserialize_from_bucket — 接口保持不变"}
+{"file": "crates/volmount-core/src/journal/jset.rs", "reason": "Phase 3 CRC — crc32c() 函数引用"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/bcachefs_format.h", "reason": "bcachefs reference: struct btree_node(1944), struct bset(1905)"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/btree/write.c", "reason": "bcachefs reference: __bch2_btree_node_write(336) buffer layout construction"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/btree/bset.h", "reason": "bcachefs reference: bset accessor macros"}
+{"file": ".trellis/spec/guides/bcachefs-alignment-guide.md", "reason": "每个对齐声明需包含 bcachefs 源码行号"}

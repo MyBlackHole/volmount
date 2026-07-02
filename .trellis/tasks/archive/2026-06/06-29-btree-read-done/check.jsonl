@@ -1,0 +1,4 @@
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "key_cache 已有的质量准则 section"}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "验证错误处理模式"}
+{"file": ".trellis/spec/backend/lock-concurrency.md", "reason": "验证并发安全"}
+{"file": ".trellis/spec/journal/index.md", "reason": "验证 journal pin 集成正确性"}

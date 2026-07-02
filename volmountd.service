@@ -1,0 +1,17 @@
+[Unit]
+Description=volmount storage daemon
+Documentation=https://github.com/user/volmount
+After=network.target local-fs.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/volmountd
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+Environment=RUST_LOG=info
+
+[Install]
+WantedBy=multi-user.target

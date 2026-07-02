@@ -1,0 +1,6 @@
+{"file": "/home/black/Documents/volmount/crates/volmount-core/src/btree/engine.rs", "reason": "改造目标：移除 recover_from_journal()、加 overlay 支持、insert_guarded() / insert_raw()"}
+{"file": "/home/black/Documents/volmount/crates/volmount-core/src/journal/types.rs", "reason": "改造目标：加 BlacklistEntry、JournalEntry::Blacklist 变体、flush() 方法"}
+{"file": "/home/black/Documents/volmount/crates/volmount-core/src/journal/mod.rs", "reason": "改造目标：read_bucket() gap 检测、read_blacklist()"}
+{"file": "/home/black/Documents/volmount/crates/volmount-core/src/storage/superblock.rs", "reason": "改造目标：加 CleanSection、pass_done、replayed_seqs；保证 Clone；序列化兼容"}
+{"file": "/home/black/Documents/volmount/crates/volmountd/src/volume.rs", "reason": "改造目标：init_volume 使用 recovery::run_passes()、checkpoint_volume 前 flush journal"}
+{"file": "/home/black/Documents/volmount/crates/volmount-core/src/lib.rs", "reason": "改造目标：加 pub mod recovery"}

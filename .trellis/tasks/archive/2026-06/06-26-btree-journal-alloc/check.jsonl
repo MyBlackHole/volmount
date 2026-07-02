@@ -1,0 +1,5 @@
+{"id": "check-batch-a", "type": "check", "description": "Batch A: btree split — compact_fits + 错误回滚 + format-aware + 75% 阈值", "tags": ["btree", "split", "p0"]}
+{"id": "check-batch-b", "type": "check", "description": "Batch B: journal reclaim — seq per-entry + flush + pin + 错误处理", "tags": ["journal", "reclaim", "p1"]}
+{"id": "check-batch-c", "type": "check", "description": "Batch C: alloc trigger — 事务原子性 + 版本号 + need_discard + freespace", "tags": ["alloc", "trigger", "p0"]}
+{"id": "check-build", "type": "check", "description": "cargo build 通过 + cargo clippy 干净", "tags": ["verification"]}
+{"id": "check-tests", "type": "check", "description": "cargo test -p volmount-core --lib 通过 (≥625)", "tags": ["verification"]}

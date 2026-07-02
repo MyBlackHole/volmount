@@ -1,0 +1,3 @@
+{"file": "crates/volmount-core/src/volume/mod.rs", "reason": "主修改文件—确认 journal_pin 字段、构造器、write_extent/delete_extent pin_add、flush_dirty_nodes pin_drop 全部移除"}
+{"file": "crates/volmount-core/src/btree/io.rs", "reason": "节点级 pin 注册—确认 3 处 bch2_journal_pin_add 未受影响（不变）"}
+{"file": "crates/volmount-core/src/btree/cache.rs", "reason": "节点级 pin 释放—确认 8 处 bch2_journal_pin_drop 未受影响（不变）"}

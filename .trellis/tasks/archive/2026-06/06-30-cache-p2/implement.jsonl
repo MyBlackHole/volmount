@@ -1,0 +1,10 @@
+{"type": "spec", "path": ".trellis/tasks/06-30-cache-p2/prd.md", "description": "需求文档"}
+{"type": "spec", "path": ".trellis/tasks/06-30-cache-p2/design.md", "description": "设计文档"}
+{"type": "spec", "path": ".trellis/tasks/06-30-cache-p2/implement.md", "description": "实现清单"}
+{"type": "reference", "path": "crates/volmount-core/src/btree/cache.rs", "description": "当前 BtreeCache 实现 (1691 行)"}
+{"type": "reference", "path": "crates/volmount-core/src/btree/node.rs", "description": "当前 BtreeNode 实现，含 NodeState 和 transition_state"}
+{"type": "reference", "path": "crates/volmount-core/src/btree/iter.rs", "description": "BtreeIter — prefetch 调用点"}
+{"type": "bcachefs", "path": "/home/black/Documents/bcachefs-tools/fs/btree/cache.c", "lines": "1098-1573,1575-1595", "description": "bch2_btree_node_fill + bch2_btree_node_prefetch 实现"}
+{"type": "bcachefs", "path": "/home/black/Documents/bcachefs-tools/fs/btree/cache.h", "description": "BtreeCache 头文件"}
+{"type": "bcachefs", "path": "/home/black/Documents/bcachefs-tools/fs/btree/iter.c", "lines": "1028-1061", "description": "prefetch 调用点 (path_traverse_all)"}
+{"type": "spec", "path": ".trellis/spec/backend/btree-cache-coverage.md", "description": "当前覆盖地图"}

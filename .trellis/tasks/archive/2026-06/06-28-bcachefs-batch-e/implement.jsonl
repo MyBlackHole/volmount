@@ -1,0 +1,2 @@
+{"file": ".trellis/tasks/06-28-bcachefs-batch-e/research/bcachefs-read-done-analysis.md", "reason": "bcachefs bch2_btree_node_read_done 验证流水线详细分析，用于 io.rs 的 read_done 实现参考"}
+{"file": ".trellis/tasks/06-28-bcachefs-batch-e/research/bcachefs-write-path-analysis.md", "reason": "bcachefs __bch2_btree_node_write 写入流水线分析，用于写入排序合并和 write_done 实现参考"}

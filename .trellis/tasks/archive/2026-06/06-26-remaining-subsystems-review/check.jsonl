@@ -1,0 +1,8 @@
+{"id": "check-btree-trans", "type": "check", "description": "btree trans/iter 功能逻辑审查完成", "tags": ["btree", "review"]}
+{"id": "check-btree-io", "type": "check", "description": "btree cache/IO 功能逻辑审查完成", "tags": ["btree", "review"]}
+{"id": "check-btree-gc", "type": "check", "description": "btree GC 功能逻辑审查完成", "tags": ["btree", "review"]}
+{"id": "check-journal-flush", "type": "check", "description": "journal flush/write/read 功能逻辑审查完成", "tags": ["journal", "review"]}
+{"id": "check-lock-six", "type": "check", "description": "lock six 功能逻辑审查完成", "tags": ["lock", "review"]}
+{"id": "check-recovery", "type": "check", "description": "recovery 功能逻辑审查完成", "tags": ["recovery", "review"]}
+{"id": "check-design-doc", "type": "check", "description": "design.md 汇总审查结果并分级", "tags": ["documentation"]}
+

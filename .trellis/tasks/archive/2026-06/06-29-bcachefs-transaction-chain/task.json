@@ -1,0 +1,31 @@
+{
+  "id": "bcachefs-transaction-chain",
+  "name": "bcachefs-transaction-chain",
+  "title": "bcachefs 事务全链路整合",
+  "description": "",
+  "status": "completed",
+  "dev_type": null,
+  "scope": null,
+  "package": null,
+  "priority": "P2",
+  "creator": "black",
+  "assignee": "black",
+  "createdAt": "2026-06-29",
+  "completedAt": "2026-06-30",
+  "branch": null,
+  "base_branch": "main",
+  "worktree_path": null,
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [
+    "06-29-child-a-trans-commit",
+    "06-29-child-b-pin-unify",
+    "06-29-child-c-key-cache",
+    "06-29-child-d-journal-ext"
+  ],
+  "parent": null,
+  "relatedFiles": [],
+  "notes": "",
+  "meta": {}
+}

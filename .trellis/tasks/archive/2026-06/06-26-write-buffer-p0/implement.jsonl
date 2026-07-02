@@ -1,0 +1,10 @@
+{"file": "crates/volmount-core/src/btree/write_buffer.rs", "reason": "Target implementation file — all P0 fixes go here"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/btree/write_buffer.c", "reason": "bcachefs reference implementation (~1500 lines) for flush_locked/sort/insert"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/btree/write_buffer.h", "reason": "bcachefs public API declarations and inline functions (journal_key_to_wb, wb_key_cmp)"}
+{"file": "/home/black/Documents/bcachefs-tools/fs/btree/write_buffer_types.h", "reason": "bcachefs data structures (bch_fs_btree_write_buffer, btree_write_buffer_keys)"}
+{"file": ".trellis/tasks/06-26-write-buffer-p0/design.md", "reason": "Technical design for the implementation"}
+{"file": ".trellis/tasks/06-26-write-buffer-p0/implement.md", "reason": "Execution checklist and testing strategy"}
+{"file": "crates/volmount-core/src/btree/engine.rs", "reason": "BtreeEngine API — get_entry/insert_entry used during flush"}
+{"file": "crates/volmount-core/src/btree/types.rs", "reason": "BtreeKey, BchVal, Bpos, KeyType types used by write buffer"}
+{"file": "crates/volmount-core/src/btree/transaction.rs", "reason": "BtreeTrans — used by slowpath flush"}
+{"file": "crates/volmount-core/src/journal/types.rs", "reason": "Journal type — needed for slowpath flush"}

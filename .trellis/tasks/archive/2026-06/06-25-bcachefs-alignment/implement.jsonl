@@ -1,0 +1,17 @@
+{"file": ".trellis/spec/backend/index.md", "reason": "后端开发规范参考"}
+{"file": ".trellis/tasks/06-25-bcachefs-alignment/design.md", "reason": "差距分析和技术设计"}
+{"file": ".trellis/tasks/06-25-bcachefs-alignment/prd.md", "reason": "需求范围和验收标准"}
+{"file": "crates/volmount-core/src/lib.rs", "reason": "当前模块导出结构"}
+{"file": "crates/volmount-core/src/lock/six.rs", "reason": "当前 lock 实现"}
+{"file": "crates/volmount-core/src/btree/mod.rs", "reason": "当前 btree 模块导出"}
+{"file": "crates/volmount-core/src/btree/key.rs", "reason": "当前 bkey 类型定义"}
+{"file": "crates/volmount-core/src/btree/btree.rs", "reason": "当前 Btree 核心实现"}
+{"file": "crates/volmount-core/src/btree/node.rs", "reason": "当前 BtreeNode 实现"}
+{"file": "crates/volmount-core/src/btree/iter.rs", "reason": "当前 BtreeIter 实现"}
+{"file": "crates/volmount-core/src/btree/transaction.rs", "reason": "当前 BtreeTrans 实现"}
+{"file": "crates/volmount-core/src/alloc/mod.rs", "reason": "当前 alloc 实现"}
+{"file": "crates/volmount-core/src/journal/mod.rs", "reason": "当前 journal 实现"}
+{"file": "crates/volmount-core/src/volume/mod.rs", "reason": "当前 volume 实现"}
+{"file": "crates/volmount-core/src/snap/mod.rs", "reason": "当前 snap 实现"}
+{"file": "crates/volmount-core/src/subvol/mod.rs", "reason": "当前 subvol 实现"}
+{"file": "crates/volmount-core/src/recovery/mod.rs", "reason": "当前 recovery 实现"}
